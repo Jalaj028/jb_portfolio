@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    padding-left: 6%;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family:cursive;
+}
+.hero{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  @media (max-width:700px) {
+    .heading{
+        font-size:larger;
+    }
+  }
